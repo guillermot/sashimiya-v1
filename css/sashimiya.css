@@ -22,3 +22,21 @@
     height: auto;
     width: 100%;
 }
+
+.contact-us-container{
+    display: table;
+    padding-bottom: 20px;
+}
+
+.contact-us-form {
+    display: table-cell; 
+    float:none;
+}
+
+#where-are-we{
+    height: 500px;
+}
+
+#where-are-we-map{
+    height: 500px;
+}

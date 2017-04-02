@@ -132,7 +132,7 @@
             <div class="row">
                 <ul id="menu-categories" class="menu-filter-list list-inline margin-b-40 text-center">
                     <li class="is-checked" data-filter="*">Todos</li>
-                    <li data-filter=".dishes" >Dishes</li>
+                    <li data-filter=".dishes">Dishes</li>
                     <li data-filter=".dessert" class="">Dessert</li>
                     <li data-filter=".sushi" class="">Sushi</li>
 
@@ -287,7 +287,7 @@
             layoutMode: 'fitRows'
         });
 
-        $("#menu-categories li").click(function(){
+        $("#menu-categories li").click(function () {
             var filter = $(this).data("filter");
             $(".grid").isotope({ filter: filter });
 
