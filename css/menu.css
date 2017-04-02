@@ -1,0 +1,61 @@
+.menu-item{
+    height: auto;
+}
+
+.menu-item.red{ background-color: red;}
+.menu-item.green{ background-color: green;}
+.menu-item.yellow{ background-color: yellow;}
+
+
+/**isoptope**/
+.menu-filter-list {
+  padding-bottom: 30px;
+}
+.menu-filter-list li {
+  display: inline-block;
+  cursor: pointer;
+  padding: 10px 20px 6px;
+  text-transform: uppercase;
+  background: #f5f5f5;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  font-family: "Poppins", sans-serif;
+}
+.menu-filter-list li.is-checked, .menu-filter-list li:hover {
+  background: #c0996b;
+  color: #fff;
+}
+
+.menu-grid {
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+.menu-grid img {
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.menu-grid-desc {
+  padding: 13px 15px;
+  background: #fff;
+  color: #888;
+}
+.menu-grid-desc .price {
+  color: #c0996b;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 29px;
+}
+.menu-grid-desc h4 {
+  padding: 5px 0;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.menu-grid-desc p {
+  margin-bottom: 0px;
+}
