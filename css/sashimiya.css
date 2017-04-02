@@ -1,0 +1,24 @@
+.logo-sashimiya{
+    padding: 0px;   
+}
+
+.logo-sashimiya img {
+    height: 70px;
+}
+
+.sashimi-topbar {
+    min-height: 70px;
+}
+
+@media (min-width: 768px)
+{
+    .navbar-nav>li>a {
+        padding-top: 24px;
+        padding-bottom: 20px;
+    }
+}
+
+#carousel-example-generic {
+    height: auto;
+    width: 100%;
+}
