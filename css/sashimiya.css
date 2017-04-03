@@ -23,6 +23,14 @@
     width: 100%;
 }
 
+
+#contact-us
+{
+    /*background-image: url(../img/background-contact-us.jpg);
+    position: relative;*/
+    padding: 100px 0 100px 0;
+}
+
 .contact-us-container{
     display: table;
     padding-bottom: 20px;
@@ -31,6 +39,7 @@
 .contact-us-form {
     display: table-cell; 
     float:none;
+    color: white;
 }
 
 #where-are-we{
